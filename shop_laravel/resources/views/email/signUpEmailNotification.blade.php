@@ -1,0 +1,1 @@
+<h1>Hello {{ $nickname }} ! Welcome to shop laravel!</h1>
