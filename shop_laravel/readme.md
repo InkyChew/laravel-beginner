@@ -19,11 +19,11 @@ http://eggroll-shop-laravel.herokuapp.com
 
 ## Notes
 <h3>發布至Heroku後</h3>
--原本地端DB_CONNECTION使用mysql</br>
+- 原本地端DB_CONNECTION使用mysql</br>
 為發布至Heroku，使用pgsql(postgresql)</br>
 <p><img src="https://upload.cc/i1/2019/06/07/6k1BJ7.png"></p>
 並且在composer.json 中加入gd擴充</br>
 <p><img src="https://upload.cc/i1/2019/06/07/djI3Oo.png"></p>
 
--圖片的呈現方式為取出DB中的url</br>
-Heroku不提供儲存空間，因此照片upload後不會存在。
+- 圖片的呈現方式為取出DB中的url</br>
+因Heroku不提供儲存空間，照片upload後不會存在。
