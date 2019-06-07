@@ -11,7 +11,7 @@
 <p>shop_laravel is a simple online shop. Admin can add/manage items. General member can view/buy items.</p>
 
 ## Demo
-<h2>Deploy in Heroku</h2>
+-Deploy in Heroku
 <a href="http://eggroll-shop-laravel.herokuapp.com">shop_laravel</a>
 
 - Originally, use DB_CONNECTION=mysql</br>
