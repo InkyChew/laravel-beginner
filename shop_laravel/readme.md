@@ -7,8 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## About
+<p>shop_laravel is a simple online shop. Admin can add/manage items. General member can view/buy items.</p>
+
 ## Demo
-http://eggroll-shop-laravel.herokuapp.com
+<h2>Deploy in Heroku</h2>
+<a href="http://eggroll-shop-laravel.herokuapp.com">shop_laravel</a>
+
+- Originally, use DB_CONNECTION=mysql</br>
+In order to deploy to Heroku，use DB_CONNECTION=pgsql</br>
+and add "require": { "ext-gd":"*" }, in composer.json</br>
+
+- Image can't show due to the storage that do not provided in Heroku.
 
 ## Usage
 - laravel v5.8
@@ -17,13 +27,5 @@ http://eggroll-shop-laravel.herokuapp.com
 - vagrant
 - mysql
 
-## Notes
-<h3>發布至Heroku後</h3>
-- 原本地端DB_CONNECTION使用mysql</br>
-為發布至Heroku，使用pgsql(postgresql)</br>
-並且在composer.json 中加入gd擴充</br>
-<img src="https://upload.cc/i1/2019/06/07/6k1BJ7.png">
-<img src="https://upload.cc/i1/2019/06/07/djI3Oo.png">
-
-- 圖片的呈現方式為取出DB中的url</br>
-因Heroku不提供儲存空間，照片upload後不會存在。
+## Reference
+<a href="https://github.com/kejyun/laravel5-for-beginner-shop-laravel">laravel5-for-beginner</a>
