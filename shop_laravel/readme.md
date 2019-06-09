@@ -13,16 +13,16 @@
 ## Demo
 - <a href="http://eggroll-shop-laravel.herokuapp.com">shop_laravel</a> deploy in Heroku
 
-- Originally, use DB_CONNECTION=mysql</br>
-In order to deploy to Heroku，use DB_CONNECTION=pgsql</br>
-and add "require": { "ext-gd":"*" }, in composer.json</br>
+- In order to deploy to Heroku</br>
+  change `DB_CONNECTION=mysql` into `DB_CONNECTION=pgsql` in .env</br>
+  and add `"require": { "ext-gd":"*" }` in composer.json</br>
 
 - Image can't show due to the storage that do not provided in Heroku.
 
 ## Usage
 - laravel v5.8
 - php7
-- Homestead
+- homestead
 - vagrant
 - mysql
 
